@@ -1,0 +1,7 @@
+class SummaryView
+{
+    constructor(parent)
+    {
+      
+    }
+}
