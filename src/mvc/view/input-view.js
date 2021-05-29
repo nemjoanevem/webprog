@@ -1,0 +1,7 @@
+class InputView
+{
+  constructor(parent)
+    {
+      
+    }
+}
