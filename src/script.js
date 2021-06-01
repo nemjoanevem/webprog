@@ -1,1 +1,2 @@
-
+Controller.Prepare();
+Controller.Summary();
