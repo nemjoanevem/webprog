@@ -8,7 +8,7 @@ class ListView
         this._elem.innerHTML = `<h2>Tételek listája</h2>
 				
         <div class="message">
-            <p>A lista teljesen üres. <br> Adj hozzá új rendelési tételt!</p>
+            <p>A lista teljesen üres. <br> Adj hozzá új tételt!</p>
         </div>
         
         <ul class="ulList"></ul>`;

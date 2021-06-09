@@ -13,7 +13,7 @@ class SummaryView
             <h3>Teljes költség:</h3>
             <p class="fullPrice">-</p>
             
-            <a href="" class="clear">Megvettem</a>
+            <a href="" class="clear">Kiadás lista ürítése</a>
         </div>`;
 
         this._clearBtn = this._elem.querySelector('.clear');

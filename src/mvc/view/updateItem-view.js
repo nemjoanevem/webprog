@@ -12,9 +12,9 @@ class UpdateItem
         }
 
         this._elem.innerHTML = `
-        <label>Új név:</label><br>
+        <label class="newNameLbl">Új név:</label><br>
         <input type="text" id="newName" value="${this.item.name}"><br>
-        <label>Új ár:</label><br>
+        <label class="newPriceLbl">Új ár:</label><br>
         <input type="number" id="newPrice" value="${this.item.price}">
         <button class="save">Mentés</button>
         <button class="cancel">Mégsem</button>`
