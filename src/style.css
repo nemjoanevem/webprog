@@ -124,6 +124,23 @@ table
 			color: #666;
 		}
 
+section{
+	opacity: 0;
+	animation: fadeIn 1s ease-in both;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: translate3d(0, -20%, 0);
+	}
+	to {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
+}
+
+
 form,
 section > div
 {
@@ -207,6 +224,21 @@ section > div
 	padding: 10px 0;
 }
 
+.basicItem
+{
+	background: rgba(0,0,0, 0.02);
+}
+
+.itemPrice
+{
+	margin-left: 5px;
+}
+
+.upd
+{
+	margin-left: 5px;
+}
+
 .save
 {
     margin-bottom: 5px;
@@ -223,9 +255,9 @@ section > div
 	position: fixed;
 	left: 0;
 	width: 100%;
-	height: 75px;
 	border-top: 1px solid #e8e8e8;
 	background-image: url("../res/header.jpg");
+	z-index: 9;
 }
 	#navigation-bar > ul
 	{
@@ -254,7 +286,7 @@ section > div
 			}
 			#navigation-bar > ul li a:hover
 			{
-				background: rgba(0,0,0, 0.05);
+				background: rgba(0,0,0, 0.2);
 			}
 			#navigation-bar > ul li a:active
 			{
