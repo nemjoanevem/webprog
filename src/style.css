@@ -86,12 +86,12 @@ p
 }
 a
 {
-	color: rgb(42, 171, 141);
+	color: rgb(74 129 187);
 	text-decoration: none;
 }
 a:hover
 {
-	color: rgb(33, 137, 113);
+	color: rgb(52 90 130);
 }
 a:active
 {
@@ -136,10 +136,10 @@ section > div
 }
 	form p.message
 	{
-		color: rgb(42, 171, 151);
+		color: rgb(74 129 187);
 		padding-bottom: 10px;
 		margin-bottom: 15px;
-		border-bottom: 1px solid rgba(42, 171, 151, 0.25);
+		border-bottom: 1px solid rgb(101 104 220 / 25%);
 	}
 	form > div
 	{
@@ -169,7 +169,7 @@ section > div
 		}
 		form button
 		{
-			background: rgb(42, 171, 141);
+			background: rgb(52 90 130);
 			border: 0;
 			padding: 10px;
 			box-sizing: border-box;
@@ -185,7 +185,7 @@ section > div
 		}
 		form button:hover
 		{
-			background: rgb(33, 137, 113);
+			background: rgb(74 129 187);
 		}
 		form button:active
 		{
@@ -225,7 +225,7 @@ section > div
 	width: 100%;
 	height: 75px;
 	border-top: 1px solid #e8e8e8;
-	background-color: #2aab8d;
+	background-image: url("../res/header.jpg");
 }
 	#navigation-bar > ul
 	{
